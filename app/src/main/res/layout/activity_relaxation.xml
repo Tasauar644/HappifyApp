@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relaxation"
+    android:background="@drawable/g14">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="648dp"
+        android:background="@drawable/left_chevron" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button8"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="139dp"
+            android:layout_marginEnd="61dp"
+
+            android:layout_marginBottom="518dp"
+            android:background="@drawable/rect65"
+            android:backgroundTint="#D8D4FE"
+            android:text="Calming Audio"
+
+            android:textSize="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="63dp"
+
+        android:layout_marginBottom="393dp"
+        android:background="@drawable/rect65"
+        android:backgroundTint="#FEE8D2"
+        android:text="Exercise"
+
+        android:textSize="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="61dp"
+
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/rect65"
+        android:backgroundTint="#D2FEEF"
+        android:text="Meditation"
+
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

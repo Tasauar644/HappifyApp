@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diary"
+    android:background="@drawable/group15">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="648dp"
+        android:background="@drawable/left_chevron"
+        />
+
+    <Button
+        android:id="@+id/diary"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="284dp"
+        android:background="@drawable/rectangle16"
+        android:backgroundTint="#8870E6"
+
+        android:text="Save "
+
+        />
+
+    <EditText
+        android:id="@+id/userThought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="371dp"
+        android:background="@drawable/rect105"
+        android:gravity="top"
+        android:hint="Express your thoughts"
+        android:inputType="text"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/watchHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"/>
+
+
+</RelativeLayout>

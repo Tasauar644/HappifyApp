@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpPage"
+    android:background="@drawable/group3">
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="429dp"
+        android:gravity="center_vertical"
+        android:hint="enter your email address"
+       />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="517dp"
+        android:gravity="center_vertical"
+        android:hint="enter your name" />
+
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="339dp"
+        android:gravity="center_vertical"
+        android:inputType="textPassword"
+        android:hint="at least 8 characters " />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="517dp"
+        android:gravity="center_vertical"
+     />
+
+    <EditText
+        android:id="@+id/userContact"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="254dp"
+        android:gravity="center_vertical"
+        android:hint="at least 11 characters " />
+
+    <Button
+        android:id="@+id/finalSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="183dp"
+        android:background="@drawable/rectangle16"
+        android:text="Continue"
+        android:onClick="signUp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/rectangle1"
+        android:backgroundTint="@color/white"
+        android:text="Continue with Google"
+        android:textSize="10sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="599dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="92dp"
+       android:src="@mipmap/google" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="654dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="58dp"
+        android:text="Sign In"
+        android:textColor="#0000FF" />
+</RelativeLayout>
